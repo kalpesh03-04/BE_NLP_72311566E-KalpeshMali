@@ -1,48 +1,100 @@
-# Practical 1: Tokenization, Stemming and Lemmatization using NLTK
+# 🧠 NLP Practical 1
 
-## Objective
+## Tokenization, Stemming and Lemmatization using NLTK
 
-To understand basic Natural Language Processing (NLP) preprocessing techniques such as tokenization, stemming, and lemmatization using the NLTK library in Python.
+---
 
-## Problem Statement
+## 🎯 Objective
 
-Perform tokenization using the NLTK library. Apply Porter Stemmer and Snowball Stemmer for stemming and perform lemmatization using any suitable method.
+To understand basic **Natural Language Processing (NLP) preprocessing techniques** such as tokenization, stemming, and lemmatization using the **NLTK library in Python**.
 
-## Tools and Libraries
+---
+
+## 📌 Problem Statement
+
+Perform **tokenization using the NLTK library**.
+Apply **Porter Stemmer and Snowball Stemmer for stemming** and perform **lemmatization using an appropriate technique**.
+
+---
+
+## 🛠 Tools and Libraries
 
 * Python
 * Jupyter Notebook
 * NLTK (Natural Language Toolkit)
 
-## Description
+---
 
-### Tokenization
+## 📚 Concepts Implemented
 
-Tokenization is the process of splitting text into smaller units called tokens. Tokens can be words, characters, or sentences. It is the first step in most NLP tasks.
+### 1️⃣ Tokenization
 
-### Stemming
+Tokenization is the process of **splitting text into smaller units called tokens**.
+Tokens can be words, characters, or sentences.
+It is the **first step in most NLP preprocessing tasks**.
 
-Stemming reduces words to their root or base form by removing suffixes. In this practical, Porter Stemmer and Snowball Stemmer are used.
+Example:
 
-### Lemmatization
+Input sentence:
 
-Lemmatization converts words into their meaningful base form using vocabulary and morphological analysis.
+```
+Natural Language Processing is interesting
+```
 
-## Sample Input
+Tokens:
 
-Natural Language Processing is very interesting.
+```
+['Natural', 'Language', 'Processing', 'is', 'interesting']
+```
 
-## Output
+---
 
-The program performs:
+### 2️⃣ Stemming
 
-* Word Tokenization
-* Stemming using Porter Stemmer
-* Stemming using Snowball Stemmer
-* Lemmatization of words
+Stemming reduces words to their **root or base form by removing suffixes**.
 
-Screenshots of the output are included in this folder.
+Two stemming techniques used in this practical:
 
-## Conclusion
+* **Porter Stemmer**
+* **Snowball Stemmer**
 
-Tokenization, stemming, and lemmatization are important preprocessing steps in Natural Language Processing. They help in simplifying text data and improving the performance of NLP models.
+Example:
+
+```
+running → run  
+playing → play  
+processing → process
+```
+
+---
+
+### 3️⃣ Lemmatization
+
+Lemmatization converts words into their **dictionary base form** using linguistic knowledge.
+
+Example:
+
+```
+better → good  
+running → run
+```
+
+---
+
+## 📷 Output
+
+The following outputs are generated:
+
+* Tokenization output
+* Porter Stemmer output
+* Snowball Stemmer output
+* Lemmatization output
+
+Screenshots of the outputs are included in this folder.
+
+---
+
+## ✅ Conclusion
+
+Tokenization, stemming, and lemmatization are important **text preprocessing techniques** in Natural Language Processing.
+They help clean and simplify textual data before applying machine learning or deep learning models.
