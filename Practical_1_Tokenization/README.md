@@ -27,7 +27,7 @@ Apply **Porter Stemmer and Snowball Stemmer for stemming** and perform **lemmati
 
 ##  Concepts Implemented
 
-### 1️ Tokenization
+### 1️. Tokenization
 
 Tokenization is the process of **splitting text into smaller units called tokens**.
 Tokens can be words, characters, or sentences.
@@ -49,7 +49,7 @@ Tokens:
 
 ---
 
-### 2️ Stemming
+### 2️. Stemming
 
 Stemming reduces words to their **root or base form by removing suffixes**.
 
@@ -68,7 +68,7 @@ processing → process
 
 ---
 
-### 3️ Lemmatization
+### 3️. Lemmatization
 
 Lemmatization converts words into their **dictionary base form** using linguistic knowledge.
 
