@@ -1,22 +1,22 @@
-# 🧠 NLP Practical 4
+#  NLP Practical 4
 
 ## Implementation of Transformer using PyTorch
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 To understand the architecture of a **Transformer model** and implement a basic **Transformer using the PyTorch deep learning framework**.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Implement a **Transformer model using PyTorch** and demonstrate its functionality by passing sample input tensors through the model and observing the output.
 
 ---
 
-## 🛠 Tools and Libraries
+##  Tools and Libraries
 
 * Python
 * Jupyter Notebook
@@ -24,9 +24,9 @@ Implement a **Transformer model using PyTorch** and demonstrate its functionalit
 
 ---
 
-## 📚 Description
+##  Description
 
-### 1️⃣ Transformer Architecture
+### 1️. Transformer Architecture
 
 The **Transformer** is a deep learning model introduced for handling sequential data.
 Unlike traditional RNNs or LSTMs, Transformers use a mechanism called **Self-Attention** to process input sequences.
@@ -50,7 +50,7 @@ Transformers are widely used in **Natural Language Processing tasks** such as:
 
 ---
 
-### 2️⃣ PyTorch Transformer Model
+### 2️. PyTorch Transformer Model
 
 In this practical, the built-in **`nn.Transformer`** module from PyTorch is used.
 
@@ -65,7 +65,7 @@ Random input tensors are generated and passed through the transformer model to o
 
 ---
 
-## 📊 Implementation Steps
+##  Implementation Steps
 
 1. Install and import the PyTorch library.
 2. Create a Transformer model using `nn.Transformer`.
@@ -75,7 +75,7 @@ Random input tensors are generated and passed through the transformer model to o
 
 ---
 
-## 📷 Output
+##  Output
 
 The following outputs are generated:
 
@@ -86,7 +86,7 @@ Screenshots of these outputs are included in this folder.
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 The Transformer model is a powerful deep learning architecture that uses **self-attention mechanisms** to process sequential data efficiently.
 Using PyTorch, we implemented a basic transformer and verified its functionality by generating output from sample input tensors.
